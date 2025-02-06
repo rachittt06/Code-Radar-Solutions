@@ -5,6 +5,6 @@ int main(){
     if(x>y)
     printf("True");
     else
-    print("False");
+    printf("False");
     return 0;
 }
