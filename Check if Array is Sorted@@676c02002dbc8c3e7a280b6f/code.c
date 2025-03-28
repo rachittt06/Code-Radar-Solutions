@@ -1,7 +1,7 @@
 #include <stdio.h>
 int Sorted(int arr[],int n){
     for(int i = 1;i < n;i++){
-        if(arr[i]<arr[j-1]){
+        if(arr[i]<arr[i-1]){
             return 0;
         }
     }
