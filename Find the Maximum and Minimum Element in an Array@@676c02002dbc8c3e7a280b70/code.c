@@ -15,8 +15,8 @@ int main() {
     }
 
     // Initialize min and max values
-    int min = INT_MIN;
-    int max = INT_MAX;
+    int min = INT_MAX;
+    int max = INT_MIN;
 
     // Find min and max
     for (int i = 0; i < n; i++) {
