@@ -1,5 +1,5 @@
 #include <stdio.h>
-intSorted(int arr[],int n){
+int Sorted(int arr[],int n){
     for(int i = 1;i < n;i++){
         if(arr[i]<arr[j-1]){
             return 0;
