@@ -3,22 +3,22 @@ int main(){
     char ch;
     scanf("%c",&ch);
     if(ch == 'A'){
-        printf("Excellent\n");
+        printf("Excellent");
     }
     else if(ch == 'B'){
-        printf("Good\n");
+        printf("Good");
     }
     else if(ch == 'C'){
-        printf("Average\n");
+        printf("Average");
     }
     else if(ch == 'D'){
-        printf("Below Average\n");
+        printf("Below Average");
     }
-    else if(ch == 'F' || ch == 'f'){
-        printf("Fail\n");
+    else if(ch == 'F'){
+        printf("Fail");
     }
     else{
-        printf("Invaild grade\n");
+        printf("Invaild grade");
     }
     return 0;
 }
